@@ -1,0 +1,203 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  /* <!-- BARRA DI NAVIGAZIONE --> */
+.barranavigazione{
+  background-color: #003366;
+  padding : 0 5%;
+}
+.barranavigazione::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.immagine-logo {
+  vertical-align: middle;
+}
+
+#barra-menu {
+  width:50%;
+}
+
+#barra-login {
+  width:50%;
+}
+
+.barra ul,
+.barra ul li {
+  display: inline-block;
+
+}
+
+.barra ul {
+  height:70px;
+  line-height: 100px;
+}
+
+.fl{
+  float: left;
+}
+a{
+  font-size: 10px;
+  padding-bottom:10PX;
+  text-decoration: none;
+  color: white;
+}
+
+#login{
+  border: 1px solid #4e8cb6;
+  padding: 8px 25px;
+  border-radius: 5px;
+}
+
+#strutturaunpiano{
+  color: white;
+  border: 1px solid green;
+  padding: 8px 25px;
+  background-color: green;
+  border-radius: 5px;
+}
+
+
+
+.blucontainer{
+  /* background RULES */
+  width: 100%;
+  height: 300px;
+  background-color: #003366;
+  /* END background RULES */
+  background-image: url("img/vecchi.jpg");
+  background-size: cover;
+  position: relative;
+
+}
+
+#titoloheader{
+  font-size: 30px;
+  width: 60%;
+  padding-left: 20%;
+  position: absolute;
+  top: 30%;
+  color: white;
+  }
+
+#strutturaunpiano2{
+
+  padding-left: 20%;
+  color: white;
+  border: 1px solid green;
+  padding: 8px 25px;
+  background-color: green;
+  border-radius: 5px;
+  position: absolute;
+  top: 60%;
+  left: 20%;
+  }
+
+
+
+.pulsanteverde{
+
+
+}
+
+.blucontainer::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.grigiocontainer{
+  /* background RULES */
+  width: 100%;
+  height: 100px;
+  background-color:  #f9f9f9;
+  /* END background RULES */
+}
+
+.biancocontaniner{
+  /* background RULES */
+  width: 100%;
+  height: 300px;
+  background-color: yellow;
+  /* END background RULES */
+}
+
+.biancocontaniner2{
+    /* background RULES */
+    width: 100%;
+    height: 300px;
+    background-color: #cccc00;
+    /* END background RULES */
+}
+
+.grigiocontainer2{
+  /* background RULES */
+  width: 100%;
+  height: 100px;
+  background-color:  #f9f9f9;
+  /* END background RULES */
+}
+
+.blucontainer2{
+  /* background RULES */
+  width: 100%;
+  height: 300px;
+  background-color: #003366;
+  /* END background RULES */
+
+}
+
+.biancocontaniner3{
+  /* background RULES */
+  width: 100%;
+  height: 300px;
+  background-color: #999900;
+  /* END background RULES */
+
+}
+
+.biancocontaniner4{
+  /* background RULES */
+  width: 100%;
+  height: 300px;
+  background-color: #666600;
+  /* END background RULES */
+
+}
+
+.blucontainer3{
+  /* background RULES */
+  width: 100%;
+  height: 300px;
+  background-color: #003366;
+  /* END background RULES */
+
+}
+
+.biancocontaniner5{
+  /* background RULES */
+  width: 100%;
+  height: 300px;
+  background-color: #666600;
+  /* END background RULES */
+
+}
+.blucontainer4{
+  /* background RULES */
+  width: 100%;
+  height: 100px;
+  background-color: #003366;
+  /* END background RULES */
+}
+
+footer{
+  /* background RULES */
+  width: 100%;
+  height: 300px;
+  background-color: #003366;
+  /* END background RULES */
+}
